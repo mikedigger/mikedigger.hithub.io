@@ -1,0 +1,50 @@
+#footer {
+  padding-bottom: 55px;
+  background: #272529;
+  color: $white;
+  @media screen and (max-width: 768px) {
+    .navbar {
+      margin-bottom: 20px !important;
+    }
+
+    .nav {
+      li {
+        margin-left: 10px !important;
+        font-size: 12px;
+      }
+
+      a {
+        padding: 5px;
+      }
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .socials {
+    font-size: 18px;
+    color: $red;
+
+    a:hover {
+      color: $white;
+    }
+
+    i {
+      font-size: 18px;
+    }
+
+  }
+
+  .navbar__search {
+    font-size: 16px;
+  }
+}

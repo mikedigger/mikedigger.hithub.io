@@ -1,0 +1,48 @@
+// Colors
+$white: #fff;
+$red: #c8342d;
+$dark-blue: #2d3f51;
+$light-red: #f5f5f5;
+
+$base-font: 'Open Sans', 'Proxima-Nova', 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
+
+//gaps
+$card-gap: calc(10px + (30 - 10) * ((100vw - 320px) / (1600 - 320)));
+//  10px + 20 * ((100vw - 769) / 1920);
+// calc(30px + 10px * ((100vw - 320px) / (1920 - 320)));
+// 10 + 20 * ((100vw - 769) / 1920);
+
+// Body
+$base-text-color: rgba(45, 63, 81, .7) !default;
+$base-background-color: $white !default;
+$font-size-base: 14px;
+$line-height-base: 2.14;
+$base-font-family: $base-font;
+$base-min-width: 320px;
+
+// Liks
+$base-link-color: $dark-blue;
+$base-hover-link-color: $red;
+
+// Buttons 
+$btn-color: $white !default;
+$btn-background: $red !default;
+// $btn-padding: 0.4em 15px !default;
+$btn-font-size: inherit !default;
+
+// Forms
+// $form-element-padding: $btn-padding !default;
+// $form-element-border-color: $black !default;
+// $form-element-focus-border-color: $black !default;
+// $placeholder-color: $black !default;
+
+// Headers
+$h1-font-size: 56px;
+$h2-font-size: 36px;
+$h3-font-size: 24px;
+
+$headings-font-family: $base-font !default;
+$headings-color: $dark-blue !default;
+
+
+$animation-speed: 0.3s;
